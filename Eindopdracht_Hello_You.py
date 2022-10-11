@@ -26,7 +26,7 @@ time.sleep(4)
 print("She didn’t mind at first, until she was locked there. One of the Deities of her world stood before her, closing the portal. ")
 time.sleep(4)
 print("When they noticed her, they asked a huge favor of her. To keep others away from the Island and keep an eye out on the prison that laid underneath. Andrea reluctantly accepts, now being called The Warden of the End.")
-time.sleep(6)
+time.sleep(8)
 
 choice1 = True
 while choice1:
@@ -56,3 +56,56 @@ while choice1:
         print("That wasn't a valid answer. Please try again.")
         time.sleep(2)
 
+print("Until one day")
+if reaction > 0:
+    print("Something happened to cheer Andrea up a tiny bit.")
+    time.sleep(2)
+    print("While she’d gotten a dog from who knows where, now another being was standing before her. ")
+    time.sleep(4)
+    print("This being introduced herself as Vereni, Goddess of Time. Andrea was confused at first and asked Vereni about what had happened. ")
+    time.sleep(4)
+    print("She explained that Fate had gone rogue and had overthrown everyone. Now they controlled everything and if someone disobeyed, consequences would happen. ")
+    time.sleep(6)
+    print("Andrea was a bit confused but didn’t ask any questions. Vereni asked if Andrea was okay and she just simply nodded. “If there is anything I can help with, let me know.” Vereni said.")
+    time.sleep(8)
+    help = input("Will you trust Vereni?")
+    if help == 'Yes' or help == "yes":
+        trust = True
+        print("“I need your help right now.” Andrea softly answers. She then explains how she’s stuck in the End after Fates assignment. ")
+        time.sleep(4)
+        print('Vereni listens closely and to lift Andrea’s spirits, she gives her a spore blossom.')
+    elif help == 'No' or help == 'no':
+        trust = False
+        print('Andrea stays quiet while Vereni disappears. ')
+        time.sleep(2)
+        print(' ')
+        print("Andrea doesn’t really know what to do. ")
+        time.sleep(2)
+        print("How can she trust Vereni if she can’t trust Fate. They’re both Deities and if Vereni is telling the truth, then how can she be sure it isn’t a game to trick her?? ")
+        time.sleep(5)
+        print("Time slowly moves on. One month turns into two, turns into three. Nothing changes, nothing happens. ")
+        time.sleep(4)
+        print("Andrea is getting frustrated by the situation. While she has seen Vereni a couple of times after the first visit, she still doesn’t trust her")
+        time.sleep(6)
+        print("And Fate never showed up again either. What is she even supposed to be guarding?? And what is the use if there’s no one nearby?")
+        time.sleep(6)
+elif reaction < 0:
+    print("Finally her prayers were heard. While she did get a dog from an unknown source, none of the other Deities had shown anything. ")
+    time.sleep(4)
+    print("Until Vereni, Goddess of Time chose to help Andrea. She explained how Fate had gone rogue and had made changes")
+    time.sleep(4)
+    print("Everyone has to obey them or else consequences would ensue.")
+    time.sleep(2)
+    print('Andrea now finally understood the situation. She had been chosen by Fate to protect something that was being held under the End Island')
+    time.sleep(4)
+    print('If she’d dare to disobey, then what would happen to her?')
+    time.sleep(2)
+    print("Vereni showed her concern about her follower and showed Andrea a way to another part of the End. There was a small building. ")
+    time.sleep(4)
+    print('Vereni explained this was supposed to be a safe space for Andrea. Andrea appreciated the gesture.')
+    time.sleep(3)
+    print('Vereni promised to check in more and gave Andrea a spore blossom for her troubles. ')
+
+if reaction < 0 or trust == True:
+    print('Over the coming time Andrea became more confident in herself. She knew there was a Goddess standing behind her who could help. ')
+    time.sleep(6)
