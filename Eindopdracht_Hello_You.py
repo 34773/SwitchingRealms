@@ -102,7 +102,8 @@ if reaction > 0:
         print("When the group notices her, they stop before approaching slowly")
         time.sleep(4)
         print("They introduce themselves as Rey, Atlas, Priss and Luna. That’s when Andrea notices someone familiar in the group. ")
-        time.sleep("It's Cosmos. Her old friend")
+        time.sleep(7)
+        print("It's Cosmos. Her old friend")
         Squad = input("Are you open to meet the others?")
         if Squad == "No" or Squad == "no":
             print('Andrea get confrontational. “Cosmos?! Who in the world are you with? How can you know they’re trustworthy??”')
