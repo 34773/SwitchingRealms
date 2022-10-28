@@ -1,6 +1,6 @@
 import time
 Intro = True
-
+Escape = False
 while Intro:
     print("Welcome to Switching Realms.")
     time.sleep(2)
@@ -135,6 +135,7 @@ if reaction > 0:
             time.sleep(10)
             print("Andrea takes Cosmos’ hand. Everyone helps destroyed any leads that Fate has to Andrea. This opens the portal. ")
             Rescued = True
+            Escape = True
 elif reaction < 0:
     print("Finally her prayers were heard. While she did get a dog from an unknown source, none of the other Deities had shown anything. ")
     time.sleep(4)
@@ -204,6 +205,7 @@ if reaction < 0 or trust == True:
             print("Adrea accepts the space and together with Rey they try to figure out who sleeps where.")
             time.sleep(4)
             print("Andrea can't believe she's out!")
+
     if Escape == True or Rescued == True:
         print(" ")
         print("How should Andrea live in the Overworld?")
