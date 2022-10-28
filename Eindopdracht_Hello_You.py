@@ -204,10 +204,10 @@ if reaction < 0 or trust == True:
             print("Adrea accepts the space and together with Rey they try to figure out who sleeps where.")
             time.sleep(4)
             print("Andrea can't believe she's out!")
-if Escape == True or Rescued == True:
-    print(" ")
-    print("How should Andrea live in the Overworld?")
-    Live = input("A. Live freely. She escaped! or B. Still be cautious")
+    if Escape == True or Rescued == True:
+        print(" ")
+        print("How should Andrea live in the Overworld?")
+        Live = input("A. Live freely. She escaped! or B. Still be cautious")
     if Live == 'A' or Live == 'a':
         print("Now that Andrea is out of the End, she feels free!")
         time.sleep(3)
