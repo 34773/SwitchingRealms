@@ -274,8 +274,6 @@ if Live == 'B' or Live == "b":
     else:
         print("They found the prisoner underneath the End Island and freed them.")
         time.sleep(4)
-        print("This only impowered the portal to stay open. Connecting the Overworld and the End forever.")
-        time.sleep(5)
         print("With Fate not being able to use Andrea anymore, they build their own spots wherever they wanted.")
     
             
