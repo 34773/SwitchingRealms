@@ -251,7 +251,7 @@ if Live == 'B' or Live == "b":
     time.sleep(5)
     print("So while she will explore to her hearts content and meet as many new people as she can, she must keep an eye out for anything suspicious. ")
     time.sleep(10)
-    print("So live moves on. And Andrea is really happy in her new home.")
+    print("So life moves on. And Andrea is really happy in her new home.")
     time.sleep(5)
     print("The people in the village are so sweet and always help whenever she needs it")
     time.sleep(7)
